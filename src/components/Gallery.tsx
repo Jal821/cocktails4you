@@ -39,7 +39,7 @@ const Gallery = () => {
                 alt={item.title}
                 className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
-                style={item.rotated ? { transform: 'rotate(90deg) scale(1.5)' } : undefined}
+                style={item.rotated ? { transform: 'rotate(-90deg) scale(1.5)' } : undefined}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-primary-foreground">

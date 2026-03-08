@@ -62,7 +62,7 @@ const EventTypes = () => {
                 alt="Outdoor Event - Borec Gin Bar" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
-                style={{ transform: 'rotate(90deg) scale(1.5)' }}
+                style={{ transform: 'rotate(-90deg) scale(1.5)' }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
               <div className="absolute bottom-6 left-6 text-primary-foreground">
