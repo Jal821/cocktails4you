@@ -78,7 +78,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "koktaily-vino-pivo-co-vybrat-na-firemny-event",
     category: "Firemné eventy",
-    metaTitle: "Koktaily, víno alebo pivo? Čo vybrať na firemný event | Sip & Sparkle",
+    metaTitle: "Koktaily, víno alebo pivo? Čo vybrať na firemný event | Cocktails4You",
     metaDescription: "Firemný event plánujete prvýkrát alebo hľadáte inšpiráciu? Poradíme vám, aký nápojový mix funguje najlepšie na teambuildingy, konferencie a firemné večierky.",
     readingTime: "5 min",
     cardTitle: "Koktaily, víno alebo pivo? Čo vybrať na firemný event",
