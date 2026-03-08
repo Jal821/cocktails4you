@@ -169,7 +169,7 @@ export const blogPosts: BlogPost[] = [
     cardExcerpt: "Náš barmanský tím zostavil rebríček drinkov, ktoré vždy bodujú — od cocktail hour až po polnoc.",
     h1: "Top 10 koktailov, ktoré Slováci milujú na eventoch — rebríček nášho barmanského tímu",
     date: "2026-01-18",
-    coverImage: "/assets/purple-cocktails.webp",
+    coverImage: purpleCocktails,
     content: `<p class="text-lg text-muted-foreground mb-8 leading-relaxed">Po stovkách eventov od Bratislavy po Košice vieme presne, čo Slováci pijú. Nie to, čo si myslia, že by mali piť — ale to, čo si skutočne objednávajú pri bare o polnoci. Tu je náš nečestný, ale presný rebríček.</p>
 
 <h2>1. Aperol Spritz — nesmrteľný kráľ cocktail hour</h2>
