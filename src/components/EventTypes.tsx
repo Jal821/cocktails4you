@@ -1,5 +1,6 @@
 import { Building2, Trees } from "lucide-react";
-import indoorImage from "@/assets/indoor-event.jpg";
+import indoorDemanovka from "@/assets/indoor-demanovka.webp";
+import outdoorBorecGin from "@/assets/outdoor-borec-gin.webp";
 import { Card, CardContent } from "@/components/ui/card";
 
 const EventTypes = () => {
@@ -19,9 +20,10 @@ const EventTypes = () => {
           <Card className="overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-300 group">
             <div className="relative h-64 overflow-hidden">
               <img 
-                src={indoorImage} 
-                alt="Indoor Event" 
+                src={indoorDemanovka} 
+                alt="Indoor Event - Demänovka Cinema City" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
               <div className="absolute bottom-6 left-6 text-primary-foreground">
@@ -55,7 +57,12 @@ const EventTypes = () => {
 
           <Card className="overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-300 group">
             <div className="relative h-64 overflow-hidden">
-              <div className="w-full h-full bg-gradient-to-br from-primary to-primary/70" />
+              <img 
+                src={outdoorBorecGin} 
+                alt="Outdoor Event - Borec Gin Bar" 
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                loading="lazy"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
               <div className="absolute bottom-6 left-6 text-primary-foreground">
                 <div className="flex items-center gap-3 mb-2">

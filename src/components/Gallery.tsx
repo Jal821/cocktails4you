@@ -1,5 +1,18 @@
-import cocktailsImage from "@/assets/cocktails-service.jpg";
-import wineImage from "@/assets/wine-service.jpg";
+import coupeCocktails from "@/assets/coupe-cocktails.jpg";
+import purpleCocktails from "@/assets/purple-cocktails.webp";
+import momGinBar from "@/assets/mom-gin-bar.webp";
+import outdoorBorecGin from "@/assets/outdoor-borec-gin.webp";
+import outdoorProfessorado from "@/assets/outdoor-professorado.webp";
+import momGinBottles from "@/assets/mom-gin-bottles.webp";
+
+const galleryItems = [
+  { src: coupeCocktails, title: "Signature Cocktaily", desc: "Ručne miešané podľa vášho priania" },
+  { src: purpleCocktails, title: "Cocktail Bar", desc: "Profesionálne miešané nápoje" },
+  { src: momGinBar, title: "MOM Gin Bar", desc: "Prémiový ginový bar na mieru" },
+  { src: outdoorBorecGin, title: "Outdoor Setup", desc: "Mobilný bar v prírode" },
+  { src: outdoorProfessorado, title: "Festival Bar", desc: "Profesionálny servis na festivaloch" },
+  { src: momGinBottles, title: "Prémiové Značky", desc: "Široký výber kvalitných nápojov" },
+];
 
 const Gallery = () => {
   return (
@@ -14,31 +27,46 @@ const Gallery = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
-            <img 
-              src={cocktailsImage} 
-              alt="Cocktail Service" 
-              className="w-full h-96 object-cover group-hover:scale-110 transition-transform duration-500"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
-            <div className="absolute bottom-0 left-0 right-0 p-8 text-primary-foreground">
-              <h3 className="text-2xl font-bold mb-2">Cocktail Bar</h3>
-              <p className="text-primary-foreground/90">Profesionálne miešané nápoje</p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {galleryItems.map((item, index) => (
+            <div
+              key={index}
+              className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 animate-fade-in"
+              style={{ animationDelay: `${index * 100}ms` }}
+            >
+              <img
+                src={item.src}
+                alt={item.title}
+                className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500"
+                loading="lazy"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
+              <div className="absolute bottom-0 left-0 right-0 p-6 text-primary-foreground">
+                <h3 className="text-xl font-bold mb-1">{item.title}</h3>
+                <p className="text-primary-foreground/90 text-sm">{item.desc}</p>
+              </div>
             </div>
-          </div>
+          ))}
+        </div>
 
-          <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
-            <img 
-              src={wineImage} 
-              alt="Wine Service" 
-              className="w-full h-96 object-cover group-hover:scale-110 transition-transform duration-500"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
-            <div className="absolute bottom-0 left-0 right-0 p-8 text-primary-foreground">
-              <h3 className="text-2xl font-bold mb-2">Vinný Servis</h3>
-              <p className="text-primary-foreground/90">Prémiové vína pre každú príležitosť</p>
-            </div>
+        {/* Video section */}
+        <div className="mt-16 max-w-4xl mx-auto">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl md:text-3xl font-bold text-primary mb-2">
+              Naše Eventy v Akcii
+            </h3>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-xl">
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              className="w-full"
+            >
+              <source src="/videos/event-video-2.webm" type="video/webm" />
+              <source src="/videos/event-video-2.mp4" type="video/mp4" />
+              Váš prehliadač nepodporuje prehrávanie videa.
+            </video>
           </div>
         </div>
       </div>

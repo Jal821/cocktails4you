@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-catering.jpg";
+import barmanPouring from "@/assets/barman-pouring.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -8,10 +8,19 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div 
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
+      {/* Video background with image fallback */}
+      <div className="absolute inset-0">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster={barmanPouring}
+          className="w-full h-full object-cover"
+        >
+          <source src="/videos/event-video-1.webm" type="video/webm" />
+          <source src="/videos/event-video-1.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/70" />
       </div>
       
