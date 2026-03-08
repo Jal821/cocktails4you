@@ -6,12 +6,12 @@ import outdoorProfessorado from "@/assets/outdoor-professorado.webp";
 import momGinBottles from "@/assets/mom-gin-bottles.webp";
 
 const galleryItems = [
-  { src: coupeCocktails, title: "Signature Cocktaily", desc: "Ručne miešané podľa vášho priania" },
-  { src: purpleCocktails, title: "Cocktail Bar", desc: "Profesionálne miešané nápoje" },
-  { src: momGinBar, title: "MOM Gin Bar", desc: "Prémiový ginový bar na mieru" },
-  { src: outdoorBorecGin, title: "Outdoor Setup", desc: "Mobilný bar v prírode" },
-  { src: outdoorProfessorado, title: "Festival Bar", desc: "Profesionálny servis na festivaloch" },
-  { src: momGinBottles, title: "Prémiové Značky", desc: "Široký výber kvalitných nápojov" },
+  { src: coupeCocktails, title: "Signature Cocktaily", desc: "Ručne miešané podľa vášho priania", rotated: false },
+  { src: purpleCocktails, title: "Cocktail Bar", desc: "Profesionálne miešané nápoje", rotated: false },
+  { src: momGinBar, title: "MOM Gin Bar", desc: "Prémiový ginový bar na mieru", rotated: false },
+  { src: outdoorBorecGin, title: "Outdoor Setup", desc: "Mobilný bar v prírode", rotated: true },
+  { src: outdoorProfessorado, title: "Festival Bar", desc: "Profesionálny servis na festivaloch", rotated: true },
+  { src: momGinBottles, title: "Prémiové Značky", desc: "Široký výber kvalitných nápojov", rotated: false },
 ];
 
 const Gallery = () => {
