@@ -22,7 +22,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-sm border-b border-primary-foreground/10">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
         <Link to="/" className="flex items-center gap-2">
-          <Wine className="w-7 h-7 text-accent" />
+          <CocktailIcon className="w-7 h-7 text-accent" />
           <span className="text-lg font-bold text-primary-foreground">
             Cocktails4You
           </span>
