@@ -117,7 +117,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "outdoor-vs-indoor-mobilny-bar",
     category: "Tipy & Rady",
-    metaTitle: "Outdoor vs. Indoor mobilný bar — čo potrebujete vedieť | Sip & Sparkle",
+    metaTitle: "Outdoor vs. Indoor mobilný bar — čo potrebujete vedieť | Cocktails4You",
     metaDescription: "Záhradná párty alebo elegantná sála? Zistite, ako sa líšia požiadavky na mobilný bar pre outdoor a indoor eventy a na čo nezabudnúť pri plánovaní.",
     readingTime: "4 min",
     cardTitle: "Outdoor vs. Indoor mobilný bar — čo potrebujete vedieť pred rezerváciou",
