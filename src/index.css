@@ -138,6 +138,12 @@ All colors MUST be HSL.
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
+  .rotate-cw-90 {
+    transform: rotate(90deg);
+    /* Scale up to fill the container after rotation since width/height swap */
+    transform-origin: center center;
+  }
 }
 
 @keyframes fade-in {
