@@ -57,12 +57,12 @@ const Gallery = () => {
               Naše Eventy v Akcii
             </h3>
           </div>
-          <div className="rounded-2xl overflow-hidden shadow-xl">
+          <div className="rounded-2xl overflow-hidden shadow-xl aspect-video">
             <video
               controls
               playsInline
               preload="metadata"
-              className="w-full"
+              className="w-full h-full object-cover"
             >
               <source src="/videos/event-video-2.webm" type="video/webm" />
               <source src="/videos/event-video-2.mp4" type="video/mp4" />
