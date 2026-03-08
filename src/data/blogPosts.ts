@@ -162,7 +162,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "top-10-koktailov-na-slovensku",
     category: "Nápoje & Drinky",
-    metaTitle: "Top 10 najobľúbenejších koktailov na eventoch na Slovensku | Sip & Sparkle",
+    metaTitle: "Top 10 najobľúbenejších koktailov na eventoch na Slovensku | Cocktails4You",
     metaDescription: "Ktoré koktaily si Slováci na eventoch objednávajú najčastejšie? Náš barmanský tím zostavil rebríček Top 10 drinkov, ktoré vždy bodujú.",
     readingTime: "5 min",
     cardTitle: "Top 10 koktailov, ktoré Slováci milujú na eventoch",
