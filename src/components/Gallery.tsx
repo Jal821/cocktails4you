@@ -60,6 +60,7 @@ const Gallery = () => {
           <div className="rounded-2xl overflow-hidden shadow-xl aspect-video">
             <video
               controls
+              muted
               playsInline
               preload="metadata"
               className="w-full h-full object-cover"
