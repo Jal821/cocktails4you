@@ -213,7 +213,7 @@ export const blogPosts: BlogPost[] = [
     cardExcerpt: "Interaktívny cocktail workshop pre váš tím — zábava, súťaž a drinky na záver. Zistite, ako to celé prebieha.",
     h1: "Barmanský workshop ako teambuilding — prečo to funguje lepšie ako lezenie po lane",
     date: "2026-01-10",
-    coverImage: "/assets/mixing-drink.jpg",
+    coverImage: mixingDrink,
     content: `<p class="text-lg text-muted-foreground mb-8 leading-relaxed">Teambuildingy majú zlú povesť. Padanie dozadu do náručia kolegov, lezenie po lane a awkward ice-breaking hry — väčšina ľudí ich toleruje, nie miluje. Barmanský cocktail workshop je iný. Ľudia sa smejú, súťažia, tvoria niečo vlastnými rukami a na konci to vypijú. Tu je dôvod, prečo to funguje.</p>
 
 <h2>Čo je barmanský workshop?</h2>
