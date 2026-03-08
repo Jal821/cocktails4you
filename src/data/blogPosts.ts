@@ -1,3 +1,9 @@
+import coupeCocktails from "@/assets/coupe-cocktails.jpg";
+import indoorDemanovka from "@/assets/indoor-demanovka.webp";
+import outdoorBorecGin from "@/assets/outdoor-borec-gin.webp";
+import purpleCocktails from "@/assets/purple-cocktails.webp";
+import mixingDrink from "@/assets/mixing-drink.jpg";
+
 export type BlogCategory = "Svadby" | "Firemné eventy" | "Oslavy & Párty" | "Nápoje & Drinky" | "Tipy & Rady";
 
 export interface BlogPost {
