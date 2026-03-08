@@ -6,6 +6,10 @@ const Hero = () => {
     document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToServices = () => {
+    document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Video background with image fallback */}
@@ -26,10 +30,10 @@ const Hero = () => {
       
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in">
-          Prémiový Nápojový Catering
+          Mobilný Bar & Nápojový Catering na Svadby, Firemné Eventy a Oslavy po celom Slovensku
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto animate-slide-up">
-          Perfektné nápoje pre vaše nezabudnuteľné eventy. Pivo, víno, cocktaily a nealko – profesionálne a so štýlom.
+          Koktaily, víno, pivo — profesionálny barový catering pre indoor aj outdoor eventy. Pôsobíme po celom Slovensku.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up">
           <Button 
@@ -38,15 +42,15 @@ const Hero = () => {
             onClick={scrollToContact}
             className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all"
           >
-            Nezáväzná Ponuka
+            Získať nezáväznú ponuku
           </Button>
           <Button 
             size="lg" 
             variant="outline"
-            onClick={scrollToContact}
+            onClick={scrollToServices}
             className="text-lg px-8 py-6 bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
           >
-            Kontaktujte Nás
+            Pozrieť naše služby
           </Button>
         </div>
       </div>

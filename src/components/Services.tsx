@@ -4,23 +4,23 @@ import { Card, CardContent } from "@/components/ui/card";
 const services = [
   {
     icon: Sparkles,
-    title: "Cocktaily",
-    description: "Profesionálni barmani a wide výber cocktailov pre každú príležitosť",
+    title: "Koktailový Bar & Barmanská Show",
+    description: "Profesionálni barmani, craft koktaily a interaktívna show priamo na vašom evente.",
   },
   {
     icon: Wine,
-    title: "Víno",
-    description: "Kvalitné vína z domácich aj zahraničných vinárií",
+    title: "Wine Bar — Víno na Eventy",
+    description: "Starostlivo vybrané slovenské aj zahraničné vína podávané s eleganciou.",
   },
   {
     icon: Beer,
-    title: "Pivo",
-    description: "Čapované pivo, craft pivá a prémiové značky",
+    title: "Beer Tap — Výčap Piva na Akcie",
+    description: "Točené pivo priamo na mieste — ideálne pre záhradné párty, teambuildingyt aj firemné eventy.",
   },
   {
     icon: Droplets,
-    title: "Nealko",
-    description: "Šťavy, limonády a osviežujúce nealko nápoje",
+    title: "Nealkoholický Mocktail Bar",
+    description: "Sofistikované nealkoholické drinky pre každého hosťa — bez kompromisov na chuti.",
   },
 ];
 
@@ -30,10 +30,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            Naše Služby
+            Naše Služby Nápojového Cateringu
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Kompletný nápojový servis pre každý typ eventu
+            Komplexný barový servis pre každý typ eventu — od intímnych osláv po veľké firemné akcie
           </p>
         </div>
 

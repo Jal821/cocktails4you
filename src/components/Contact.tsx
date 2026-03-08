@@ -25,10 +25,10 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-            Kontaktujte Nás
+            Pripravíme pre vás nezáväznú ponuku do 24 hodín
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Máte otázky? Radi vám pripravíme nezáväznú ponuku
+            Mobilný bar na svadbu, firemný event alebo oslavu — napíšte nám a my sa postaráme o zvyšok.
           </p>
         </div>
 
@@ -79,8 +79,11 @@ const Contact = () => {
                   className="w-full"
                   variant="default"
                 >
-                  Odoslať Správu
+                  Kontaktovať nás
                 </Button>
+                <p className="text-center text-sm text-muted-foreground">
+                  Pôsobíme po celom Slovensku | Indoor & Outdoor
+                </p>
               </form>
             </CardContent>
           </Card>

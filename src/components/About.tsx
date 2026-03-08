@@ -2,12 +2,22 @@ import { CheckCircle2 } from "lucide-react";
 import mixingDrink from "@/assets/mixing-drink.jpg";
 
 const features = [
-  "Profesionálny a skúsený tím",
-  "Kvalitné nápoje od overených dodávateľov",
-  "Flexibilita a prispôsobenie vašim potrebám",
-  "Moderné vybavenie a mobilné bary",
-  "Spolehlivosť a presná koordinácia",
-  "Konkurenčné ceny a transparentnosť",
+  {
+    title: "Skúsený Barmanský Tím",
+    description: "Stovky úspešne zrealizovaných eventov po celom Slovensku.",
+  },
+  {
+    title: "Kompletný Servis od A po Z",
+    description: "Bar, nápoje, poháre, ľad, doprava aj upratanie — všetko v jednej cene.",
+  },
+  {
+    title: "Personalizovaný Drink Menu",
+    description: "Signature koktail s vašim menom alebo témou eventu — váš event, váš drink.",
+  },
+  {
+    title: "Rýchla Ponuka do 24 Hodín",
+    description: "Kontaktujte nás dnes a do 24 hodín máte cenovú ponuku šitú presne na váš event.",
+  },
 ];
 
 const About = () => {
@@ -17,7 +27,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Prečo Si Vybrať Nás?
+              Prečo si vybrať Sip & Sparkle Events?
             </h2>
             <p className="text-lg text-muted-foreground">
               Robíme z každého eventu nezabudnuteľný zážitok
@@ -29,11 +39,14 @@ const About = () => {
               {features.map((feature, index) => (
                 <div 
                   key={index}
-                  className="flex items-start gap-4 p-4 rounded-lg bg-background/60 backdrop-blur-sm hover:bg-background transition-all duration-300 animate-fade-in"
+                  className="flex flex-col gap-2 p-4 rounded-lg bg-background/60 backdrop-blur-sm hover:bg-background transition-all duration-300 animate-fade-in"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0 mt-1" />
-                  <span className="text-foreground text-lg">{feature}</span>
+                  <div className="flex items-center gap-3">
+                    <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0" />
+                    <h3 className="text-lg font-semibold text-foreground">{feature.title}</h3>
+                  </div>
+                  <p className="text-muted-foreground text-sm pl-9">{feature.description}</p>
                 </div>
               ))}
             </div>
@@ -41,7 +54,7 @@ const About = () => {
             <div className="rounded-2xl overflow-hidden shadow-xl animate-fade-in">
               <img
                 src={mixingDrink}
-                alt="Barman miešajúci drink"
+                alt="Barman miešajúci drink na mobilnom bare"
                 className="w-full h-[400px] object-cover"
                 loading="lazy"
               />
@@ -49,11 +62,11 @@ const About = () => {
           </div>
 
           <div className="text-center animate-slide-up">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+              Indoor aj Outdoor Mobilný Bar
+            </h2>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-4xl mx-auto">
-              S viac ako 10-ročnými skúsenosťami v oblasti eventového cateringu 
-              vieme presne, čo váš event potrebuje. Od malých súkromných osláv 
-              po veľké firemné podujatia – zabezpečíme perfektný nápojový servis 
-              s individuálnym prístupom ku každému klientovi.
+              Náš mobilný bar funguje kdekoľvek — v elegantnej sále, záhrade, vinici aj na strechách. Pôsobíme po celom Slovensku vrátane Bratislavy, Trnavy, Nitry, Žiliny a Košíc.
             </p>
           </div>
         </div>
