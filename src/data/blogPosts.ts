@@ -124,7 +124,7 @@ export const blogPosts: BlogPost[] = [
     cardExcerpt: "Záhradná párty alebo elegantná sála? Obidva typy eventov kladú na mobilný bar odlišné nároky.",
     h1: "Outdoor vs. Indoor mobilný bar — čo treba vedieť pred rezerváciou",
     date: "2026-01-25",
-    coverImage: "/assets/outdoor-borec-gin.webp",
+    coverImage: outdoorBorecGin,
     content: `<p class="text-lg text-muted-foreground mb-8 leading-relaxed">Miesto konania eventu zásadne ovplyvňuje logistiku celého barového cateringu. Záhradná párty pod holým nebom a elegantná recepcia v historickej vile — oba sú krásne, ale kladú na mobilný bar úplne odlišné nároky. Tu je všetko, čo potrebujete vedieť pred rezerváciou.</p>
 
 <h2>Outdoor mobilný bar — výhody a výzvy</h2>
