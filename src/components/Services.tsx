@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 const services = [
   {
     icon: Sparkles,
-    title: "Koktailový Bar & Barmanská Show",
-    description: "Profesionálni barmani, craft koktaily, služba na mieruiamo na vašom evente.",
+    title: "Koktailový Bar",
+    description: "Profesionálni barmani, craft koktaily, služba na mieru priamo na vašom evente.",
   },
   {
     icon: Wine,
@@ -15,7 +15,7 @@ const services = [
   {
     icon: Beer,
     title: "Beer Tap — Výčap Piva na Akcie",
-    description: "To�Čapova pivo priamo na mieste — ideálne pre záhradné párty, teambuildingyt aj firemné eventy.",
+    description: "Čapované a craftové pivo priamo na mieste — ideálne pre záhradné párty, teambuildingyt aj firemné eventy.",
   },
   {
     icon: Droplets,
