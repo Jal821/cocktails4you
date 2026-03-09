@@ -5,7 +5,7 @@ const services = [
   {
     icon: Sparkles,
     title: "Koktailový Bar & Barmanská Show",
-    description: "Profesionálni barmani, craft koktaily a interaktívna show priamo na vašom evente.",
+    description: "Profesionálni barmani, craft koktaily, služba na mieruiamo na vašom evente.",
   },
   {
     icon: Wine,
@@ -15,7 +15,7 @@ const services = [
   {
     icon: Beer,
     title: "Beer Tap — Výčap Piva na Akcie",
-    description: "Točené pivo priamo na mieste — ideálne pre záhradné párty, teambuildingyt aj firemné eventy.",
+    description: "To�Čapova pivo priamo na mieste — ideálne pre záhradné párty, teambuildingyt aj firemné eventy.",
   },
   {
     icon: Droplets,
