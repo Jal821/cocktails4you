@@ -130,28 +130,6 @@ const Contact = () => {
               </div>
             </div>
 
-            <Card className="border-none bg-gradient-to-br from-primary to-primary/90 text-primary-foreground shadow-lg">
-              <CardContent className="p-8">
-                <h3 className="text-2xl font-bold mb-4">Pracovný Čas</h3>
-                <div className="space-y-2">
-                  <div className="flex justify-between">
-                    <span>Pondelok - Piatok</span>
-                    <span className="font-semibold">9:00 - 18:00</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Sobota</span>
-                    <span className="font-semibold">10:00 - 16:00</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span>Nedeľa</span>
-                    <span className="font-semibold">Zatvorené</span>
-                  </div>
-                </div>
-                <p className="mt-4 text-sm text-primary-foreground/80">
-                  * Eventy zabezpečujeme 7 dní v týždni
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>
