@@ -11,7 +11,7 @@ const features = [
     description: "Bar, nápoje, poháre, ľad, doprava aj upratanie — všetko v jednej cene.",
   },
   {
-    title: "Personalizovaný Drink Menu",
+    title: "Personalizované Drink Menu",
     description: "Signature koktail s vašim menom alebo témou eventu — váš event, váš drink.",
   },
   {
