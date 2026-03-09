@@ -1,4 +1,4 @@
-import { Wine, Beer, Droplets, Sparkles } from "lucide-react";
+import { Wine, Beer, Droplets, Sparkles, GraduationCap } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const services = [
