@@ -6,12 +6,12 @@ import outdoorProfessorado from "@/assets/outdoor-professorado.webp";
 import momGinBottles from "@/assets/mom-gin-bottles.webp";
 
 const galleryItems = [
-  { src: coupeCocktails, title: "Signature Cocktaily", desc: "Ručne miešané podľa vášho priania", rotated: false },
-  { src: purpleCocktails, title: "Cocktail Bar", desc: "Profesionálne miešané nápoje", rotated: false },
-  { src: momGinBar, title: "MOM Gin Bar", desc: "Prémiový ginový bar na mieru", rotated: false },
-  { src: outdoorBorecGin, title: "Outdoor Setup", desc: "Mobilný bar v prírode", rotated: true },
-  { src: outdoorProfessorado, title: "Festival Bar", desc: "Profesionálny servis na festivaloch", rotated: true },
-  { src: momGinBottles, title: "Prémiové Značky", desc: "Široký výber kvalitných nápojov", rotated: false },
+  { src: coupeCocktails, title: "Signature Cocktaily", desc: "Ručne miešané podľa vášho priania", rotation: undefined },
+  { src: purpleCocktails, title: "Cocktail Bar", desc: "Profesionálne miešané nápoje", rotation: undefined },
+  { src: momGinBar, title: "MOM Gin Bar", desc: "Prémiový ginový bar na mieru", rotation: undefined },
+  { src: outdoorBorecGin, title: "Outdoor Setup", desc: "Mobilný bar v prírode", rotation: 'rotate(180deg) scale(1.5)' },
+  { src: outdoorProfessorado, title: "Festival Bar", desc: "Profesionálny servis na festivaloch", rotation: 'rotate(180deg) scale(1.5)' },
+  { src: momGinBottles, title: "Prémiové Značky", desc: "Široký výber kvalitných nápojov", rotation: 'rotate(90deg) scale(1.5)' },
 ];
 
 const Gallery = () => {
@@ -39,7 +39,7 @@ const Gallery = () => {
                 alt={item.title}
                 className="w-full h-72 object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
-                style={item.rotated ? { transform: 'rotate(-90deg) scale(1.5)' } : undefined}
+                style={item.rotation ? { transform: item.rotation } : undefined}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-primary-foreground">
