@@ -9,9 +9,9 @@ const galleryItems = [
 { src: coupeCocktails, title: "Signature Cocktaily", desc: "Ručne miešané podľa vášho priania", rotation: undefined },
 { src: purpleCocktails, title: "Cocktail Bar", desc: "Profesionálne miešané nápoje", rotation: undefined },
 { src: momGinBar, title: "MOM Gin Bar", desc: "Prémiový ginový bar na mieru", rotation: undefined },
-{ src: outdoorBorecGin, title: "Outdoor Setup", desc: "Mobilný bar v prírode", rotation: 'rotate(90deg) scale(0.9)' },
-{ src: outdoorProfessorado, title: "Festival Bar", desc: "Profesionálny servis na festivaloch", rotation: 'rotate(90deg) scale(0.9)' },
-{ src: momGinBottles, title: "Prémiové Značky", desc: "Široký výber kvalitných nápojov", rotation: 'rotate(90deg) scale(0.9)' }];
+{ src: outdoorBorecGin, title: "Outdoor Setup", desc: "Mobilný bar v prírode", rotation: 'rotate(90deg) scale(1.0)' },
+{ src: outdoorProfessorado, title: "Festival Bar", desc: "Profesionálny servis na festivaloch", rotation: 'rotate(90deg) scale(1.0)' },
+{ src: momGinBottles, title: "Prémiové Značky", desc: "Široký výber kvalitných nápojov", rotation: 'rotate(90deg) scale(1.0)' }];
 
 
 const Gallery = () => {
