@@ -5,7 +5,7 @@ const services = [
   {
     icon: Sparkles,
     title: "Koktailový Bar & Barmanská Show",
-    description: "Profesionálni barmani, craft koktaily a interaktívna show priamo na vašom evente.",
+    description: "Profesionálni barmani, craft koktaily, služba na mieru priamo na vašom evente.",
   },
   {
     icon: Wine,
