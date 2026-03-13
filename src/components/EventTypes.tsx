@@ -1,5 +1,5 @@
 import { Building2, Trees, PartyPopper, GraduationCap } from "lucide-react";
-import indoorDemanovka from "@/assets/indoor-demanovka.webp";
+import indoorBarSetup from "@/assets/indoor-bar-setup.jpg";
 import outdoorBorecGin from "@/assets/outdoor-borec-gin.webp";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -20,7 +20,7 @@ const EventTypes = () => {
           <Card className="overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-300 group">
             <div className="relative h-64 overflow-hidden">
               <img
-                src={indoorDemanovka}
+                src={indoorBarSetup}
                 alt="Mobilný bar na svadbu - indoor event"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy" />
