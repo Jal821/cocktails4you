@@ -26,7 +26,7 @@ const Partners = () => {
         </div>
 
         {/* Static logos grid */}
-        <div className="flex flex-wrap justify-center items-end gap-12 md:gap-16">
+        <div className="flex flex-wrap justify-center items-end gap-16">
           {partners.map((partner, index) => (
             <div
               key={index}
