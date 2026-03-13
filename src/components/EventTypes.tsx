@@ -20,7 +20,7 @@ const EventTypes = () => {
           <Card className="overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-300 group">
             <div className="relative h-64 overflow-hidden">
               <img
-                src={indoorDemanovka}
+                src={indoorBarSetup}
                 alt="Mobilný bar na svadbu - indoor event"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy" />
