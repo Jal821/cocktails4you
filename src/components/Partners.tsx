@@ -7,6 +7,7 @@ import partnerVajnory from "@/assets/partner-vajnory.png";
 const partners = [
   { name: "Saint-Gobain", logo: partnerSaintGobain },
   { name: "MČ Bratislava – Petržalka", logo: partnerPetrzalka },
+  { name: "Nicolaus", logo: partnerNicolaus },
   { name: "Vajnory", logo: partnerVajnory },
 ];
 
