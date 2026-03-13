@@ -38,12 +38,12 @@ const Partners = () => {
             {duplicatedPartners.map((partner, index) => (
               <div
                 key={index}
-                className="flex-shrink-0 flex items-center justify-center h-24 w-56 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-500"
+                className="flex-shrink-0 flex items-end justify-center h-24 w-56 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-500"
               >
                 <img
                   src={partner.logo}
                   alt={partner.name}
-                  className={`object-contain ${partner.name === "Vajnory" ? "h-24 w-auto" : "h-20 w-auto"}`}
+                  className={`object-contain self-end ${partner.name === "Vajnory" ? "h-24 w-auto" : "h-20 w-auto"}`}
                   loading="lazy"
                 />
               </div>
