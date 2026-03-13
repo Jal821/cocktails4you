@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 import partnerPetrzalka from "@/assets/partner-petrzalka.jpg";
 import partnerSaintGobain from "@/assets/partner-saint-gobain.png";
 import partnerNicolaus from "@/assets/partner-nicolaus.png";
+import partnerVajnory from "@/assets/partner-vajnory.png";
 
 const partners = [
   { name: "Saint-Gobain", logo: partnerSaintGobain },
   { name: "MČ Bratislava – Petržalka", logo: partnerPetrzalka },
   { name: "Nicolaus", logo: partnerNicolaus },
+  { name: "Vajnory", logo: partnerVajnory },
 ];
 
 // Duplicate for seamless infinite scroll
