@@ -49,28 +49,6 @@ const Gallery = () => {
             </div>
           )}
         </div>
-
-        {/* Video section */}
-        <div className="mt-16 max-w-4xl mx-auto">
-          <div className="text-center mb-8">
-            <h3 className="text-2xl md:text-3xl font-bold text-primary mb-2">
-              Naše Eventy v Akcii
-            </h3>
-          </div>
-          <div className="rounded-2xl overflow-hidden shadow-xl aspect-video">
-            <video
-              controls
-              muted
-              playsInline
-              preload="metadata"
-              className="w-full h-full object-cover">
-              
-              <source src="/videos/event-video-2.webm" type="video/webm" />
-              <source src="/videos/event-video-2.mp4" type="video/mp4" />
-              Váš prehliadač nepodporuje prehrávanie videa.
-            </video>
-          </div>
-        </div>
       </div>
     </section>);
 
