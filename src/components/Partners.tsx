@@ -43,7 +43,7 @@ const Partners = () => {
                 <img
                   src={partner.logo}
                   alt={partner.name}
-                  className="max-h-20 max-w-full object-contain"
+                  className="h-20 w-auto object-contain"
                   loading="lazy"
                 />
               </div>
