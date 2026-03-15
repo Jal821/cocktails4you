@@ -99,7 +99,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Telefón</h4>
                     <a href="tel:+421900000000" className="text-muted-foreground hover:text-accent transition-colors">
-                      +421 999999999
+                      +421 911 962 153  
                     </a>
                   </div>
                 </div>
